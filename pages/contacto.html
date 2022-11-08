@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="img/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <a href="../index.html"><img src="img/logo.jpg" alt="Imagen tiendaFer"></a>
+            </div>
+            <nav class="barra">
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="envios.html">Envios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <a href="paginainiciodesesion.html"><img src="img/login.png" alt="login" class="iniciarSesion"></a>
+            </div> <!-- Imagen deberia dirigir a la pagina de inicio de sesion-->
+
+            <div>
+                <a href="carritoDeCompras.html"><img src="img/carrito.png" alt="carrito de compras" class="carrito"></a>
+            </div> <!-- Imagen deberia dirigir a la pagina donde se detallen los productos seleccionados-->
+
+        </header>
+        <section>
+            <h1>Completa el formulario con tus datos y te contactaremos a la brevedad</h1>
+        </section>
+        <form>
+            <fieldset>
+                <legend>Información personal</legend>
+                
+                <p>Sexo</p>
+
+                <label for="hombre">
+                    <input type="radio" id="hombre" name="sexo">Hombre
+                </label>
+
+                <label for="mujer">
+                    <input type="radio" id="mujer" name="sexo">Mujer
+                </label>
+
+                <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" required placeholder="Nombre" id="nombre">
+                </div>
+
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" required placeholder="Apellido" id="apellido">
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" required placeholder="E-mail" id="email">
+                </div>
+
+                <button type="submit">Enviar</button>
+
+            </fieldset>
+        </form>
+        <footer>
+            <div class="laEmpresa">
+                <h3>La empresa</h3>
+                <a href="nosotros.html#historia">Sobre nosotros</a>
+                <a href="nosotros.html#politicaDePrivacidad">Politica de privacidad</a>
+                <a href="nosotros.html#terminosYCondiciones">Terminos y condiciones</a>
+            </div>
+            <div class="contacto">
+                <h3>Atencion al cliente</h3>
+                <p>011 39765467</p>
+                <p>Lunes a viernes 09:00 a 17:00</p>
+                <a href="contacto.html">Contactanos</a>
+            </div>
+            <div class="redesSociales">
+                <h3>Redes sociales</h3>
+                <a href="facebook.com"><img src="img/facebook-icon.png" alt="Facebook link"></a>
+                <a href=""><img src="img/twitter-icon.png" alt="Twitter link"></a>
+                <a href=""><img src="img/instagram-icon.png" alt="Instagram link"></a>
+            </div>
+            <div class="flechaIrArriba">
+                <a href="contacto.html"><img src="img/arrowUp.png" alt="Ir arriba"></a>
+            </div>
+            <div class="imagenfooter">
+                <a href="../index.html"><img src="img/logo.jpg" alt="logoTiendaFer"></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt rerum sunt nesciunt quia, reprehenderit sapiente et, illum autem reiciendis iusto id accusantium aliquid unde doloremque tenetur. Expedita beatae voluptatem dicta?</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
