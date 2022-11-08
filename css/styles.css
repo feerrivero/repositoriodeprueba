@@ -17,6 +17,11 @@ header div .iniciarSesion {
     width: 30px;
 }
 
+.parrafo_git{
+    color: green;
+    font-size: 2rem;
+}
+
 header div .carrito {
     height: 30px;
     width: 30px;  
