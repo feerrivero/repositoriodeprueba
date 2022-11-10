@@ -23,15 +23,28 @@ header div .iniciarSesion {
 }
 
 header {
-    background-color: #A49966;
     border-bottom: 0.5rem solid black;
     display: grid;
-    grid-template-columns: 15% 70% 15%;
+    grid-template-columns: 20% 60% 20%;
     grid-template-areas: "logo barra botones";
+    height: 7rem;
 }
 
 #logo_header{
     grid-area: logo;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#logo_header a{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#logo_header a img{
+    height: 7rem;
 }
 
 header .barra{
@@ -39,11 +52,15 @@ header .barra{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to right, white, #A49966);
 }
 
 header .botones_header{
     grid-area: botones;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #A49966;
 }
 
 header div .carrito {
